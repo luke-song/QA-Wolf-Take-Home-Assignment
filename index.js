@@ -42,3 +42,5 @@ async function saveHackerNewsArticles() {
 (async () => {
   await saveHackerNewsArticles();
 })();
+
+module.exports = { saveHackerNewsArticles };
